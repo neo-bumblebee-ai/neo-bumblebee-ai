@@ -14,7 +14,10 @@ A 6-month AI engineering series — one project per month, each one production-r
 |-------|---------|-------|--------|
 | Jan | [Databricks AI Engineering Challenge](https://github.com/neo-bumblebee-ai/databricks-ai-engineering-challenge) | Databricks · MLflow · PySpark | ✅ Complete |
 | Feb | [Traditional RAG Pipeline](https://github.com/neo-bumblebee-ai/traditional-rag-pipeline) | LangChain · FAISS · ChromaDB | ✅ Complete |
-| Mar | [Agentic RAG with LangGraph](https://github.com/neo-bumblebee-ai/agentic-rag-langgraph) | LangGraph · BM25 · Cross-encoder reranking | 🔨 In progress |
+| Mar | [Agentic RAG with LangGraph](https://github.com/neo-bumblebee-ai/agentic-rag-langgraph) | LangGraph · BM25 · Cross-encoder reranking | ✅ Complete |
+| Apr | [Finance RAG - Ask My 10-Ks](https://github.com/neo-bumblebee-ai/finance-rag) | FAISS · BM25 · Cohere · GPT-4o · Langfuse | ✅ Complete |
+| May | LLMOps Evaluation Platform | Coming | 🔜 Coming |
+| Jun | Enterprise AI Platform (Capstone) | Coming | 🔜 Coming |
 
 ---
 
