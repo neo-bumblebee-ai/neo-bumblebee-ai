@@ -1,56 +1,71 @@
-# Hi, I'm Jignesh Patel
+<div align="center">
 
-AI Engineer and Architect building production-grade LLM systems — RAG pipelines, agentic workflows, fine-tuning, and observability.
+# Jignesh Patel
 
-17 years of data engineering and architecture as the foundation. Now applying that depth to AI systems that actually work in production.
+**AI Engineer & Architect**
 
----
+*17 years of production data engineering — now applied to LLM systems that work beyond the notebook*
 
-## What I'm building
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jigneshrpatel)
+&nbsp;
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)]()
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)]()
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)]()
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)]()
+[![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=githubactions&logoColor=white)]()
+[![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)]()
 
-A 6-month AI engineering series — one project per month, each one production-ready:
-
-| Month | Project | Stack | Status |
-|-------|---------|-------|--------|
-| Jan | [Databricks AI Engineering Challenge](https://github.com/neo-bumblebee-ai/databricks-ai-engineering-challenge) | Databricks · MLflow · PySpark | ✅ Complete |
-| Feb | [Traditional RAG Pipeline](https://github.com/neo-bumblebee-ai/traditional-rag-pipeline) | LangChain · FAISS · ChromaDB | ✅ Complete |
-| Mar | [Agentic RAG with LangGraph](https://github.com/neo-bumblebee-ai/agentic-rag-langgraph) | LangGraph · BM25 · Cross-encoder reranking | ✅ Complete |
-| Apr | [Finance RAG - Ask My 10-Ks](https://github.com/neo-bumblebee-ai/finance-rag) | FAISS · BM25 · Cohere · GPT-4o · Langfuse | ✅ Complete |
-| May | LLMOps Evaluation Platform | Coming | 🔜 Coming |
-| Jun | Enterprise AI Platform (Capstone) | Coming | 🔜 Coming |
+</div>
 
 ---
 
-## Tech stack
+## Building in public — 6-month AI engineering series
 
-**AI / LLM**
-`LangChain` `LangGraph` `LangSmith` `Ollama` `OpenAI API` `HuggingFace` `PEFT / LoRA` `RAGAS` `Langfuse`
+One production-ready project per month. Evaluated, containerised, observable, CI-gated.
 
-**Retrieval**
-`FAISS` `ChromaDB` `BM25` `Reciprocal Rank Fusion` `Cross-encoder reranking` `Cohere Rerank`
-
-**Backend & infra**
-`FastAPI` `PostgreSQL` `Redis` `Docker` `GitHub Actions` `Azure` `Kubernetes`
-
-**Data engineering (17 yrs)**
-`Databricks` `PySpark` `Talend` `Azure Synapse` `dbt` `Informatica` `SQL` `Netezza`
-
----
-
-## What I focus on
-
-Most AI demos stop at "it works in a notebook." I care about what comes after:
-
-- Hybrid retrieval that handles real-world queries — ticker symbols, financial terms, exact phrases
-- Citation enforcement so every LLM output is auditable and grounded
-- Eval pipelines in CI that block regressions before they reach production
-- Latency and cost tracking on every request, not just in dev
-
-That's the part that matters in enterprise AI — and it's what 17 years of building production data pipelines teaches you to care about.
+| | Project | What it demonstrates | Stack | Status |
+|:-:|---------|----------------------|-------|:------:|
+| Jan | [Databricks AI Engineering Challenge](https://github.com/neo-bumblebee-ai/databricks-ai-engineering-challenge) | ML pipelines on Databricks platform | Databricks · MLflow · PySpark | ✅ |
+| Feb | [Traditional RAG Pipeline](https://github.com/neo-bumblebee-ai/traditional-rag-pipeline) | End-to-end RAG with vector + keyword retrieval | LangChain · FAISS · ChromaDB | ✅ |
+| Mar | [Agentic RAG with LangGraph](https://github.com/neo-bumblebee-ai/agentic-rag-langgraph) | Multi-step agentic reasoning over documents | LangGraph · BM25 · Cross-encoder reranking | ✅ |
+| Apr | [Finance RAG — Ask My 10-Ks](https://github.com/neo-bumblebee-ai/finance-rag) | Hybrid retrieval · cited answers · confidence scoring · decision support | FAISS · BM25 · Cohere · GPT-4o · Langfuse | ✅ |
+| May | LLMOps Evaluation Platform | Systematic LLM quality measurement at scale | — | 🔜 |
+| Jun | Enterprise AI Platform *(capstone)* | Full production AI system, end to end | — | 🔜 |
 
 ---
 
-## Let's connect
+## What separates this from demos
 
-- [LinkedIn](https://linkedin.com/in/jigneshrpatel)
-- Building in public — follow along on GitHub
+> *17 years of production data systems teaches you exactly what breaks — and what to build instead.*
+
+| Problem | What I build |
+|---------|-------------|
+| Retrieval misses tickers and exact financial terms | Hybrid BM25 + vector search with Reciprocal Rank Fusion |
+| LLM makes up numbers not in the source | Citation enforcement — every claim maps to a filing, date, and page |
+| No way to assess answer reliability | Confidence scoring — blends LLM self-assessment with retrieval signal |
+| Silent quality degradation after code changes | RAGAS eval in CI — faithfulness, relevancy, and precision gated on every PR |
+| No production visibility | Langfuse traces cost, latency, and confidence per request |
+
+---
+
+## Stack
+
+**AI / LLM**&nbsp;&nbsp;
+`LangChain` `LangGraph` `LangSmith` `OpenAI API` `HuggingFace` `PEFT / LoRA` `Ollama` `RAGAS` `Langfuse`
+
+**Retrieval**&nbsp;&nbsp;
+`FAISS` `ChromaDB` `BM25` `Reciprocal Rank Fusion` `Cohere Rerank`
+
+**Backend & Infra**&nbsp;&nbsp;
+`FastAPI` `PostgreSQL` `Redis` `Docker` `Kubernetes` `GitHub Actions` `Azure`
+
+**Data Engineering — 17 yrs**&nbsp;&nbsp;
+`Databricks` `PySpark` `dbt` `Azure Synapse` `Talend` `Informatica` `Netezza`
+
+---
+
+<div align="center">
+
+[LinkedIn](https://linkedin.com/in/jigneshrpatel) &nbsp;·&nbsp; Building in public — follow along on GitHub
+
+</div>
