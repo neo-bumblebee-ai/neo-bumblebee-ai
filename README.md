@@ -1,71 +1,49 @@
-<div align="center">
+# Jignesh Patel — AI Engineer & Architect
 
-# Jignesh Patel
+17 years building production data systems. Now applying that foundation to enterprise AI — RAG pipelines, agentic workflows, and LLM evaluation frameworks.
 
-**AI Engineer & Architect**
-
-*17 years of production data engineering — now applied to LLM systems that work beyond the notebook*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/jigneshrpatel)
-&nbsp;
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)]()
-[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)]()
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)]()
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)]()
-[![GitHub Actions](https://img.shields.io/badge/CI-2088FF?style=flat-square&logo=githubactions&logoColor=white)]()
-[![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)]()
-
-</div>
+I care about what happens after the demo: retrieval that handles real queries, outputs that are auditable, and quality gates that catch regressions before they reach production.
 
 ---
 
-## Building in public — 6-month AI engineering series
+## 6-month AI engineering series
 
-One production-ready project per month. Evaluated, containerised, observable, CI-gated.
+One production-ready project per month, built and shipped in public.
 
-| | Project | What it demonstrates | Stack | Status |
-|:-:|---------|----------------------|-------|:------:|
-| Jan | [Databricks AI Engineering Challenge](https://github.com/neo-bumblebee-ai/databricks-ai-engineering-challenge) | ML pipelines on Databricks platform | Databricks · MLflow · PySpark | ✅ |
-| Feb | [Traditional RAG Pipeline](https://github.com/neo-bumblebee-ai/traditional-rag-pipeline) | End-to-end RAG with vector + keyword retrieval | LangChain · FAISS · ChromaDB | ✅ |
-| Mar | [Agentic RAG with LangGraph](https://github.com/neo-bumblebee-ai/agentic-rag-langgraph) | Multi-step agentic reasoning over documents | LangGraph · BM25 · Cross-encoder reranking | ✅ |
-| Apr | [Finance RAG — Ask My 10-Ks](https://github.com/neo-bumblebee-ai/finance-rag) | Hybrid retrieval · cited answers · confidence scoring · decision support | FAISS · BM25 · Cohere · GPT-4o · Langfuse | ✅ |
-| May | LLMOps Evaluation Platform | Systematic LLM quality measurement at scale | — | 🔜 |
-| Jun | Enterprise AI Platform *(capstone)* | Full production AI system, end to end | — | 🔜 |
+| Month | Project | Focus | Status |
+|-------|---------|-------|--------|
+| Jan | [Databricks AI Engineering Challenge](https://github.com/neo-bumblebee-ai/databricks-ai-engineering-challenge) | ML pipelines on Databricks | ✅ Complete |
+| Feb | [Traditional RAG Pipeline](https://github.com/neo-bumblebee-ai/traditional-rag-pipeline) | End-to-end retrieval-augmented generation | ✅ Complete |
+| Mar | [Agentic RAG with LangGraph](https://github.com/neo-bumblebee-ai/agentic-rag-langgraph) | Multi-step agentic reasoning | ✅ Complete |
+| Apr | [Finance RAG — Ask My 10-Ks](https://github.com/neo-bumblebee-ai/finance-rag) | Hybrid retrieval · cited answers · decision support | ✅ Complete |
+| May | LLMOps Evaluation Platform | Systematic LLM quality measurement | 🔜 Coming |
+| Jun | Enterprise AI Platform *(capstone)* | Full production AI system, end to end | 🔜 Coming |
+
+Each project is evaluated, containerised, observable, and CI-gated.
 
 ---
 
-## What separates this from demos
+## What I focus on
 
-> *17 years of production data systems teaches you exactly what breaks — and what to build instead.*
+**Retrieval that works on real data.** Hybrid BM25 + vector search with RRF fusion catches exact financial terms, ticker symbols, and semantic queries that pure vector search misses.
 
-| Problem | What I build |
-|---------|-------------|
-| Retrieval misses tickers and exact financial terms | Hybrid BM25 + vector search with Reciprocal Rank Fusion |
-| LLM makes up numbers not in the source | Citation enforcement — every claim maps to a filing, date, and page |
-| No way to assess answer reliability | Confidence scoring — blends LLM self-assessment with retrieval signal |
-| Silent quality degradation after code changes | RAGAS eval in CI — faithfulness, relevancy, and precision gated on every PR |
-| No production visibility | Langfuse traces cost, latency, and confidence per request |
+**Answers you can audit.** Citation enforcement maps every LLM claim to a source document, filing date, and page number.
+
+**Confidence you can act on.** Structured output with confidence scoring, per-claim citations, and decision recommendations grounded solely in retrieved context.
+
+**Quality that doesn't drift.** RAGAS evaluation in CI blocks any PR that drops faithfulness, answer relevancy, or context precision below threshold.
+
+**Full production visibility.** Langfuse traces every request — cost, latency, and confidence score — in production.
 
 ---
 
 ## Stack
 
-**AI / LLM**&nbsp;&nbsp;
-`LangChain` `LangGraph` `LangSmith` `OpenAI API` `HuggingFace` `PEFT / LoRA` `Ollama` `RAGAS` `Langfuse`
-
-**Retrieval**&nbsp;&nbsp;
-`FAISS` `ChromaDB` `BM25` `Reciprocal Rank Fusion` `Cohere Rerank`
-
-**Backend & Infra**&nbsp;&nbsp;
-`FastAPI` `PostgreSQL` `Redis` `Docker` `Kubernetes` `GitHub Actions` `Azure`
-
-**Data Engineering — 17 yrs**&nbsp;&nbsp;
-`Databricks` `PySpark` `dbt` `Azure Synapse` `Talend` `Informatica` `Netezza`
+**AI / LLM** — LangChain · LangGraph · OpenAI API · HuggingFace · PEFT/LoRA · RAGAS · Langfuse  
+**Retrieval** — FAISS · ChromaDB · BM25 · Reciprocal Rank Fusion · Cohere Rerank  
+**Backend** — FastAPI · PostgreSQL · Redis · Docker · Kubernetes · GitHub Actions · Azure  
+**Data — 17 yrs** — Databricks · PySpark · dbt · Azure Synapse · Talend · Informatica
 
 ---
 
-<div align="center">
-
-[LinkedIn](https://linkedin.com/in/jigneshrpatel) &nbsp;·&nbsp; Building in public — follow along on GitHub
-
-</div>
+[LinkedIn](https://linkedin.com/in/jigneshrpatel) · Building in public
