@@ -1,14 +1,32 @@
-# Jignesh Patel — AI Engineer & Architect
+# Jignesh Patel
 
-17 years building production data systems. Now applying that foundation to enterprise AI — RAG pipelines, agentic workflows, and LLM evaluation frameworks.
+**AI Engineer & Architect · Scottsdale, AZ**
 
-I care about what happens after the demo: retrieval that handles real queries, outputs that are auditable, and quality gates that catch regressions before they reach production.
+17 years building production data platforms — now applying that foundation to enterprise AI. I specialise in systems that work beyond the demo: grounded retrieval, auditable outputs, eval in CI, and full observability.
+
+Currently hands-on with LangChain, MCP servers, RAG pipelines, and agentic workflows — and shipping one production-ready AI project per month in public.
 
 ---
 
-## 6-month AI engineering series
+## Experience
 
-One production-ready project per month, built and shipped in public.
+**Manager / Architect — Data Engineering** · Vixxo · *Aug 2022 – Present*
+
+Leading data engineering at an ITSM platform. Architected an Azure-native data platform (Synapse · ADF · SQL) serving as single source of truth for operational and executive analytics. Built enterprise data lineage catalog that cut root-cause analysis time by 85%. Integrated Power BI MCP server and Cursor AI to accelerate dashboard delivery. Deployed self-hosted SQL Developer MCP server for analyst self-service.
+
+**Technology Lead — Data Engineering** · Infosys · *Dec 2010 – Aug 2022*
+
+Led 15-person team across global client engagements. Delivered enterprise data warehouse solutions on Netezza and DB2, near-real-time Kafka ingestion pipelines, and governed data products for regulated-industry clients. Full ownership from architecture through production operations.
+
+**Software Engineer — Data Integration** · Tech Mahindra · *May 2008 – Nov 2010*
+
+Batch ETL, SQL/PL/SQL optimisation, and data integration across reporting and analytics workstreams.
+
+---
+
+## Building in public — 6-month AI engineering series
+
+One production-ready AI project per month. Each one evaluated, containerised, observable, and CI-gated.
 
 | Month | Project | Focus | Status |
 |-------|---------|-------|--------|
@@ -19,30 +37,42 @@ One production-ready project per month, built and shipped in public.
 | May | LLMOps Evaluation Platform | Systematic LLM quality measurement | 🔜 Coming |
 | Jun | Enterprise AI Platform *(capstone)* | Full production AI system, end to end | 🔜 Coming |
 
-Each project is evaluated, containerised, observable, and CI-gated.
-
 ---
 
 ## What I focus on
 
-**Retrieval that works on real data.** Hybrid BM25 + vector search with RRF fusion catches exact financial terms, ticker symbols, and semantic queries that pure vector search misses.
+**Retrieval that works on real data.** Hybrid BM25 + vector search with RRF fusion handles tickers, exact financial terms, and semantic queries that pure vector search misses.
 
 **Answers you can audit.** Citation enforcement maps every LLM claim to a source document, filing date, and page number.
 
-**Confidence you can act on.** Structured output with confidence scoring, per-claim citations, and decision recommendations grounded solely in retrieved context.
+**Confidence you can act on.** Structured output with confidence scoring and decision recommendations grounded solely in retrieved context.
 
-**Quality that doesn't drift.** RAGAS evaluation in CI blocks any PR that drops faithfulness, answer relevancy, or context precision below threshold.
+**Quality that doesn't drift.** RAGAS evaluation in CI blocks any PR that drops faithfulness, relevancy, or precision below threshold.
 
-**Full production visibility.** Langfuse traces every request — cost, latency, and confidence score — in production.
+**Full production visibility.** Langfuse traces every request — cost, latency, and confidence score.
 
 ---
 
 ## Stack
 
-**AI / LLM** — LangChain · LangGraph · OpenAI API · HuggingFace · PEFT/LoRA · RAGAS · Langfuse  
+**AI / LLM** — LangChain · LangGraph · OpenAI API · HuggingFace · PEFT/LoRA · RAGAS · Langfuse · MCP Servers  
 **Retrieval** — FAISS · ChromaDB · BM25 · Reciprocal Rank Fusion · Cohere Rerank  
-**Backend** — FastAPI · PostgreSQL · Redis · Docker · Kubernetes · GitHub Actions · Azure  
-**Data — 17 yrs** — Databricks · PySpark · dbt · Azure Synapse · Talend · Informatica
+**Cloud & Infra** — Azure (Synapse · ADF · Data Lake · DevOps) · Docker · Kubernetes · GitHub Actions  
+**Data Engineering** — Databricks · PySpark · Kafka · dbt · Talend · Informatica · Airflow · Netezza · Oracle  
+**BI & Reporting** — Power BI · DAX · MicroStrategy · BusinessObjects
+
+---
+
+## Certifications
+
+- Google Cloud Certified — Cloud Digital Leader
+- Microsoft Certified — Azure Data Engineer Associate (DP-203)
+- Microsoft Certified — Azure Data Fundamentals (DP-900)
+- Microsoft Certified — Azure Fundamentals (AZ-900)
+
+---
+
+**B.Tech, Electronics & Telecommunication Engineering** · 2008
 
 ---
 
