@@ -12,15 +12,9 @@ Currently hands-on with LangChain, MCP servers, RAG pipelines, and agentic workf
 
 **Manager / Architect — Data Engineering** · Vixxo · *Aug 2022 – Present*
 
-Leading data engineering at an ITSM platform. Architected an Azure-native data platform (Synapse · ADF · SQL) serving as single source of truth for operational and executive analytics. Built enterprise data lineage catalog that cut root-cause analysis time by 85%. Integrated Power BI MCP server and Cursor AI to accelerate dashboard delivery. Deployed self-hosted SQL Developer MCP server for analyst self-service.
-
 **Technology Lead — Data Engineering** · Infosys · *Dec 2010 – Aug 2022*
 
-Led 15-person team across global client engagements. Delivered enterprise data warehouse solutions on Netezza and DB2, near-real-time Kafka ingestion pipelines, and governed data products for regulated-industry clients. Full ownership from architecture through production operations.
-
 **Software Engineer — Data Integration** · Tech Mahindra · *May 2008 – Nov 2010*
-
-Batch ETL, SQL/PL/SQL optimisation, and data integration across reporting and analytics workstreams.
 
 ---
 
