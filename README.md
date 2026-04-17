@@ -57,17 +57,4 @@ One production-ready AI project per month. Each one evaluated, containerised, ob
 
 ---
 
-## Certifications
-
-- Google Cloud Certified — Cloud Digital Leader
-- Microsoft Certified — Azure Data Engineer Associate (DP-203)
-- Microsoft Certified — Azure Data Fundamentals (DP-900)
-- Microsoft Certified — Azure Fundamentals (AZ-900)
-
----
-
-**B.Tech, Electronics & Telecommunication Engineering** · 2008
-
----
-
 [LinkedIn](https://linkedin.com/in/jigneshrpatel) · Building in public
