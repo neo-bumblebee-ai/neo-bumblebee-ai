@@ -2,7 +2,7 @@
 
 **AI Engineer & Architect · Scottsdale, AZ**
 
-17 years building production data platforms — now applying that foundation to enterprise AI. I specialise in systems that work beyond the demo: grounded retrieval, auditable outputs, eval in CI, and full observability.
+18 years building production data platforms — now applying that foundation to enterprise AI. I specialise in systems that work beyond the demo: grounded retrieval, auditable outputs, eval in CI, and full observability.
 
 Currently hands-on with LangChain, MCP servers, RAG pipelines, and agentic workflows — and shipping one production-ready AI project per month in public.
 
